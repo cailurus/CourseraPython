@@ -46,7 +46,5 @@ def rpsls(name):
 	else:
 		print "play again!"
 	
-	
-
 name1 = 'rock'
 rpsls(name1)

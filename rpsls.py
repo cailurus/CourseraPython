@@ -27,8 +27,8 @@ def number_to_name(number):
 def rpsls(name):
 	my_number = name_to_number(name)
 	comp_number = random.randrange(0,4)
-	print "Player choose"+name
-	print "Computer choose"+number_to_name(comp_number)
+	print "Player choose "+name
+	print "Computer choose "+number_to_name(comp_number)
 	if(my_number - comp_number == 1 or my_number - comp_number == 4):
 		print "Player wins!"
 	elif(comp_number - my_number == 1 or comp_number - my_number == 4):
@@ -41,10 +41,10 @@ def rpsls(name):
 		print "Computer wins!"
 	elif comp_number - my_number == 3:
 		print "Player wins!"
+	else:
+		print "play again!"
+	
 	
 
 name1 = 'rock'
-number1 = 3
-print str(name_to_number(name1))
-print number_to_name(number1)
 rpsls(name1)

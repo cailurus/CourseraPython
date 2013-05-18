@@ -1,3 +1,5 @@
+# Coursera
+# An Introduction to Interactive Programming in Python
 import random
 def name_to_number(name):
 	if name == 'rock':
